@@ -1,0 +1,19 @@
+{
+  "name": "onc-sifreci",
+  "version": "1.0.0",
+  "description": "ONC şifreleri ve Osman Aşar şifreleri",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build-mac": "electron-packager . onc-sifreci --platform=darwin --arch=x64 --icon=./icons/icons/mac/icon.icns --out=build"
+  },
+  "author": "Osman Aşar",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^11.0.3"
+  },
+  "dependencies": {
+    "electron-db": "^0.15.7"
+  }
+}
